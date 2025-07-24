@@ -1,6 +1,6 @@
 # Meli Challenge
 
-## Description
+## Description 📃
 
 This project is a monorepo that contains all the code for the Meli Challenge. The project is divided into two main parts: the frontend and the backend. The frontend is a Vue3 application that interacts with the backend through HTTP requests. The backend is a FastAPI application that handles all the business logic and data management.
 
@@ -8,28 +8,38 @@ Also included in this project is a generator that uses the Ollama library to gen
 
 Same as the generator, i used Ollama to generate a enrichment endpoint that takes the characteristics of a product and returns a list of related products. This is used to enrich the product information with related products.
 
-## Table of Contents
+## Table of Contents 📋
 
 - [Meli Challenge](#meli-challenge)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Technologies](#technologies)
-  - [Installation](#installation)
-  - [Running the project](#running-the-project)
-  - [API Documentation](#api-documentation)
-  - [How it's going work](#how-its-going-work)
-    - [Archiecture](#archiecture)
-    - [Explain](#explain)
+  - [Description 📃](#description-)
+  - [Table of Contents 📋](#table-of-contents-)
+  - [Technologies 🛠️](#technologies)
+  - [Prerequisites 📋](#prerequisites-)
+  - [Installation 💻](#installation-)
+  - [Running the project 🏃‍♂️](#running-the-project-)
+  - [API Documentation 📖](#api-documentation-)
+  - [How does it work 🔨](#how-does-it-work-)
+    - [Architecture 🏛️](#architecture)
+    - [Explanation 🔍](#explanation-)
+    - [Challenges faced 🧗](#challenges-faced-)
+    - [Improvements and trade offs 📈](#improvements-and-trade-offs-)
 
-## Technologies
+## Technologies 🛠️ <a id="technologies"></a>
 
-- Python 3.10 or higher
-- Node.js 22.14 or higher
+- Python
+- Node.js
 - FastAPI
 - Vue 3
 - Ollama
 
-## Installation
+## Prerequisites 📋<a id="architecture"></a>
+
+- [Python 3.10 or higher](https://www.python.org/downloads/)
+- [Node.js 22.14 or higher](https://nodejs.org/en/download/)
+- [Ollama](https://ollama.com/)
+- [Ollama model `codellama/7b-instruct`](https://ollama.com/library/codellama:7b-instruct)
+
+## Installation 💻
 
 To install the project, you will need to have Python installed and node installed. Once you have both installed, you can run the following commands to install the project dependencies:
 
@@ -45,11 +55,11 @@ cd frontend
 npm install
 ```
 
-Also if you want to use the generator and consume the enrichment endpoint, you will need to install ollama and pull the model `ollama/7b-instruct`
+Also if you want to use the generator and consume the enrichment endpoint, you will need to install ollama and pull the model `codellama/7b-instruct`
 
 With this, you will have all the dependencies installed and ready to run the project.
 
-## Running the project
+## Running the project 🏃‍♂️
 
 With all the dependencies installed, you can run the project by navigating to the `backend` directory and running:
 
@@ -77,17 +87,17 @@ This will generate the components for the frontend based on the image provided.
 
 Note: if you want to use another port for the backend or frontend, you can specify the port using the `--port` option for uvicorn and the `--port` option for npm respectively.
 
-## API Documentation
+## API Documentation 📖
 
 The API documentation can be found at `http://localhost:8000/docs`.
 
-## How it's going work 🔨
+## How does it work 🔨
 
-### Archiecture 🏛️
+### Architecture 🏛️
 
 The architecture of the project is designed to be modular and scalable. The backend is built using FastAPI and follow the hexagonal architecture pattern. The frontend is built using Vue 3 and follows the single-page application (SPA) architecture pattern.
 
-### Explain 🔍
+### Explanation 🔍
 
 The project architecture in backend is divided into three main parts: the domain, the application, the ports and the infrastructure. The domain layer contains the business logic and data management, the application layer contains the use cases and the ports layer contains the interfaces that the application uses to interact with the domain layer. The infrastructure layer contains the adapters and the repositories that the application uses to interact with the external systems.
 
@@ -106,7 +116,7 @@ For this project, i used the Ollama library for different purposes. this impleme
 
 1. What would you improve from your code? why?
 
-   - [ ] Add unit tests
+   - [ ] Add more best unit tests
    - [ ] Add more error handling
    - [ ] Use a robust ORM
    - [ ] Use a robust authentication middleware
