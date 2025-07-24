@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "id": "A55-256-BLUE",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "stock": 5,
+      "product_info": {
+        "title": "Samsung Galaxy A55 5G Dual SIM 256 GB azul oscuro 8 GB RAM",
+        "sold_quantity": 100,
+        "condition": "Nuevo",
+        "is_favorited": false,
+        "rating": {
+          "average": 4.9,
+          "reviews": 259
+        },
+        "price": {
+          "currency": "$",
+          "real_amount": 6599000,
+          "discounted_amount": 4068900,
+          "discount": 38
+        },
+        "images": [
+          "https://images.samsung.com/is/image/samsung/p6pim/co/sm-a065mlbgltc/gallery/co-galaxy-a06-sm-a065-sm-a065mlbgltc-543130446?$684_547_PNG$",
+          "https://www.korolos.com.co/wp-content/uploads/2024/09/SAMSUNGA06KOROLOS1.jpg"
+        ],
+        "variants": {
+          "colors": [
+            {
+              "name": "Titanium Gray",
+              "thumbnail": "https://media.falabella.com/falabellaCO/129295986_01/w=1500,h=1500,fit=pad"
+            },
+            {
+              "name": "Titanium Black",
+              "thumbnail": "https://media.falabella.com/falabellaCO/129295986_01/w=1500,h=1500,fit=pad"
+            },
+            {
+              "name": "Titanium Violet",
+              "thumbnail": "https://media.falabella.com/falabellaCO/129295986_01/w=1500,h=1500,fit=pad"
+            },
+            {
+              "name": "Titanium Yellow",
+              "thumbnail": "https://media.falabella.com/falabellaCO/129295986_01/w=1500,h=1500,fit=pad"
+            }
+          ],
+          "storage": [256, 512],
+          "ram": [8, 12]
+        },
+        "features": [
+          "Dispositivo desbloqueado para que elijas la compañía telefónica que prefieras.",
+          "Compatible con redes 5G.",
+          "Pantalla Dynamic AMOLED 2X de 6.8\".",
+          "Tiene 4 cámaras traseras de 200Mpx/50Mpx/10Mpx/12Mpx.",
+          "Cámaras delanteras de 12Mpx.",
+          "Procesador Snapdragon 8 Gen 3 Octa-Core de 3.39GHz con 12GB de RAM.",
+          "Batería de 5 Ah con carga inalámbrica.",
+          "Memoria interna de 512GB.",
+          "A prueba de agua.",
+          "Con reconocimiento facial y sensor de huella dactilar.",
+          "Resistente al polvo y a las caídas.",
+          "Tarjeta eSIM incluida en tu dispositivo."
+        ]
+      },
+      "characteristics": [
+        {
+          "label": "Tamaño de la pantalla:",
+          "value": "6.8\" (16.23 cm x 7.9 cm x 8.6 mm)",
+          "slider": true,
+          "range": {
+            "min": 6.8,
+            "max": 8.6,
+            "current": 7.9
+          }
+        },
+        {
+          "label": "Memoria interna:",
+          "value": "256 GB - 512 GB"
+        },
+        {
+          "label": "Cámara trasera principal:",
+          "value": "200 Mpx"
+        },
+        {
+          "label": "Cámara frontal principal:",
+          "value": "12 Mpx"
+        },
+        {
+          "label": "Desbloqueo:",
+          "value": "Huella dactilar y reconocimiento facial"
+        },
+        {
+          "label": "Procesador:",
+          "value": "Snapdragon 8 Gen 3 Octa-Core"
+        }
+      ],
+      "seller": {
+        "name": "Samsung",
+        "logo_url": "https://logoeps.com/wp-content/uploads/2012/06/samsung-mobile-logo-vector-01.png",
+        "followers": 15000,
+        "quantity_products": 120,
+        "is_mercado_lider": true
+      },
+      "paymentMethods": [
+        {
+          "name": "VISA",
+          "logoUrl": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/visa-512.png"
+        },
+        {
+          "name": "MASTERCARD",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "question": "¿El dispositivo es resistente al agua?",
+          "answer": "Sí, el Samsung Galaxy S24 Ultra es resistente al agua y al polvo con certificación IP68.",
+          "answer_date": "2024-10-01T12:00:00Z"
+        },
+        {
+          "id": 2,
+          "question": "¿Viene con cargador incluido?",
+          "answer": "No, el dispositivo no incluye cargador en la caja.",
+          "answer_date": "2024-10-02T14:30:00Z"
+        }
+      ],
+      "related_products": []
+    }
+  ]
+}
